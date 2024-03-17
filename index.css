@@ -476,19 +476,19 @@ td {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 5;
-    mix-blend-mode: exclusion;
+    mix-blend-mode: difference;
 }
 
 .logob{
     margin: 0;
     position: absolute;
     top: 30%;
-    left: 49.9%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 4;
     opacity:0;
-    transition:filter 25s ease-in 100s, opacity 1s ease-in;
+    transition:filter 25s ease-in 100s, opacity 1s ease-in 1s;
 }
 
 .spim{
@@ -836,7 +836,7 @@ td {
 
 .fadein{
     opacity:0;
-    transition:filter 25s ease-in 100s, opacity 1s ease-in 1s;
+    transition:filter 25s ease-in 100s, opacity 1s ease-in 0s;
 }
 
 .tag{
@@ -1055,7 +1055,7 @@ td {
     .logo{
         top:13%;
         max-width:100vmin;
-        transition: opacity .5s ease-in 0s;
+        transition: opacity .5s ease-in 0s, left 10s ease-out;
     }
 
     .logob{

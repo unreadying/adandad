@@ -488,7 +488,7 @@ td {
     transform: translate(-50%, -50%);
     z-index: 4;
     filter:brightness(0%);
-    transition:filter 2s ease-in, opacity .5s ease-in 0s;
+    transition:filter 2s ease-in, opacity .5s ease-in 0s, left 5s ease-in 2s;
 }
 
 .spim{
@@ -835,7 +835,6 @@ td {
 }
 
 .fadein{
-    opacity:0;
     transition:filter 2s ease-in, opacity .5s ease-in 0s;
     filter:brightness(0%);
 }

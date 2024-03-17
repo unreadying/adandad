@@ -13,34 +13,16 @@ document.addEventListener("mousedown",grab);
 document.addEventListener("mouseup",grab);
 document.addEventListener("keydown",arow);
 
-loadcheck();
+
 load();
 
-function loadcheck(){
-    console.log("loading");
-    var fi = document.querySelector('.fadein');
-    var fi2 = document.querySelector('.logob');
-    if(fi2.style.opacity == 100){
-        console.log("memory");
-    }else(console.log("whatever"));
-    fi.style.opacity = 0;
-    var lc = document.querySelector('.lc');
-    //lc.style.bottom = "40%";
-    lc.style.opacity = "0%";
-    var lc = document.querySelector('.rc');
-    //lc.style.bottom = "40%";
-    lc.style.opacity = "0%";
-    var lc = document.querySelector('.c');
-    //lc.style.bottom = "40%";
-    lc.style.opacity = "0%";
-    console.log("loaded");
-}
 
 function load(){
     console.log("loading");
     var fi = document.querySelector('.fadein');
     var fi2 = document.querySelector('.logob');
     fi2.style.opacity = 100;
+    fi2.style.left = "49.8%";
     fi.style.opacity = 100;
     var lc = document.querySelector('.lc');
     //lc.style.bottom = "40%";

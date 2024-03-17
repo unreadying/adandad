@@ -462,9 +462,16 @@ td {
 }
 
 .pim{
-    max-height: 600px;
-    padding-top:5%;
-    padding-bottom:5%;
+    max-height: 25vh;
+    margin-right:12vmin;
+    margin-left:12vmin;
+    float:none;
+}
+
+.pimt{
+    max-height: 25vh;
+    margin-right:5vmin;
+    margin-left:5vmin;
     float:none;
 }
 
@@ -500,10 +507,19 @@ td {
     float:none;
 }
 
+.nlc{
+    position:absolute;
+    right:70%;
+    transition: bottom 1s ease-out, opacity 1s ease-out 0s, transform .2s ease-in;
+    bottom:85%;
+    opacity: 0;
+    z-index: 2;
+  }
+
 .lc{
   position:absolute;
   right:70%;
-  transition: bottom 5s ease-out, opacity 1s ease-out .6s, transform .5s ease-in;
+  transition: bottom 1s ease-out, opacity 1s ease-out .6s, transform .2s ease-in;
   bottom:30%;
   opacity: 0;
   z-index: 2;
@@ -512,17 +528,72 @@ td {
 .rc{
     position:absolute;
     left:70%;
-    transition: bottom 5s ease-out, opacity 1s ease-out .6s,  transform .5s ease-in;
+    transition: bottom 1s ease-out, opacity 1s ease-out .6s,  transform .2s ease-in;
     bottom:30%;
+    opacity: 0;
+}
+
+.nrc{
+    position:absolute;
+    left:70%;
+    transition: bottom 1s ease-out, opacity 1s ease-out .5s,  transform .2s ease-in;
+    bottom:85%;
+    opacity: 0;
+}
+
+.nc{
+    position:absolute;
+    right:46%;
+    bottom:85%;
+    transition: bottom 1s ease-out, opacity 1s ease-out .5s,  transform .2s ease-in;
     opacity: 0;
 }
 
 .c{
     position:absolute;
-    right:45.5%;
+    right:46%;
     bottom:30%;
-    transition: bottom 5s ease-out, opacity 1s ease-out .9s,  transform .5s ease-in;
+    transition: bottom 1s ease-out, opacity 1s ease-out .9s,  transform .2s ease-in;
     opacity: 0;
+}
+
+.about{
+    max-width: 70%;
+    font-size:2.8vmin;
+    position: absolute;
+    top:55%;
+    left:15%;
+    text-align: left;
+    opacity:0;
+    transition:opacity .3s ease-in .2s;
+}
+
+.mission{
+    display:flex;
+}
+
+.contact{
+    font-size:2.8vmin;
+    position: absolute;
+    top:55%;
+    left:15%;
+    text-align: left;
+    opacity:0;
+    transition:opacity .3s ease-in .2s;
+}
+
+.ourwork{
+    font-size:2.8vmin;
+    position: absolute;
+    top:55%;
+    left:30%;
+    text-align: center;
+    opacity:0;
+    transition:opacity .3s ease-in .2s;
+}
+
+.stroke{
+    -webkit-text-stroke: 2px white;
 }
 
 .mbtn:hover{
@@ -533,6 +604,7 @@ td {
     -o-transform: scale(1.5,15);
     transform: scale(1.5,15);
 }
+
 
 .slideinfromtop{
     position:absolute;
@@ -621,6 +693,7 @@ td {
 .mbtn{
     font-size:300%;
     -webkit-text-stroke: 0px white;
+    z-index: 10;
 }
 
 .desktopbar{
@@ -834,6 +907,14 @@ td {
     transform: scale(1.5,1);
 }
 
+.sfsxy{
+    -webkit-transform: scale(1.5,.5);
+    -moz-transform: scale(1.5,.5);
+    -ms-transform: scale(1.5,.5);
+    -o-transform: scale(1.5,.5);
+    transform: scale(1.5,.5);
+}
+
 .fadein{
     opacity:0;
     transition:filter 25s ease-in 100s, opacity 1s ease-in 0s;
@@ -843,6 +924,31 @@ td {
     position: inherit;
     margin-top:20%;
 }
+
+::-moz-selection{
+    color:darkmagenta;
+
+}
+
+::selection{
+    color:darkmagenta;
+
+}
+
+.h{
+    transition: opacity .25s ease-out;
+}
+
+
+.mbtnh{
+    font-size:300%;
+    -webkit-text-stroke: 0px white;
+    transition-delay: .3s;
+    transition-duration: .3s;
+    z-index: 10;
+}
+
+
 
 /* platforms */
 #mobo{
@@ -1053,7 +1159,7 @@ td {
     }
 
     .logo{
-        top:13%;
+        top:16%;
         max-width:100vmin;
         transition: opacity .5s ease-in 0s, left 10s ease-out;
     }
@@ -1120,9 +1226,7 @@ td {
 
 .invis:hover{opacity:0 !important;}
 
-.nc{
-   cursor:auto;
-}
+
 
 .fixed{
     position:fixed;

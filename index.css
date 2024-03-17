@@ -836,7 +836,7 @@ td {
 
 .fadein{
     opacity:0;
-    transition:filter 25s ease-in 100s, opacity 1s ease-in 0s;
+    transition:filter 25s ease-in 100s, opacity .5s ease-in 0s;
 }
 
 .tag{

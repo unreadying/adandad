@@ -487,8 +487,8 @@ td {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 4;
-    filter:brightness(0%);
-    transition:filter 2s ease-in, opacity .5s ease-in 0s, left 5s ease-in 2s;
+    opacity:0;
+    transition:filter 25s ease-in 100s, opacity 1s ease-in 1s;
 }
 
 .spim{
@@ -520,7 +520,7 @@ td {
 .c{
     position:absolute;
     right:45.5%;
-    bottom:20%;
+    bottom:30%;
     transition: bottom 5s ease-out, opacity 1s ease-out .9s,  transform .5s ease-in;
     opacity: 0;
 }
@@ -620,7 +620,7 @@ td {
 
 .mbtn{
     font-size:300%;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0px white;
 }
 
 .desktopbar{
@@ -835,8 +835,8 @@ td {
 }
 
 .fadein{
-    transition:filter 2s ease-in, opacity .5s ease-in 0s;
-    filter:brightness(0%);
+    opacity:0;
+    transition:filter 25s ease-in 100s, opacity 1s ease-in 0s;
 }
 
 .tag{
@@ -1068,13 +1068,13 @@ td {
         max-width:fit-content;
         display:inline-block;
         position:inherit; 
-        margin:4vmax;
-        font-size: 6.5vmin;
+        margin:6vmax;
+        font-size: 14vmin;
 
     }
 
     .c{
-        margin-top:29vmax;
+        margin-top:32vmax;
         transition: opacity .7s ease-in;
     }
 
@@ -1088,11 +1088,11 @@ td {
 
     .sfsx {
 
-        -webkit-transform: scale(1,1);
-        -moz-transform: scale(1,1);
-        -ms-transform: scale(1,1);
-        -o-transform: scale(1,1);
-        transform: scale(1,1);
+        -webkit-transform: scale(1,.5);
+        -moz-transform: scale(1,.5);
+        -ms-transform: scale(1,.5);
+        -o-transform: scale(1,.5);
+        transform: scale(1,.5);
     }
     .sslim{
         max-width: 50vmin;

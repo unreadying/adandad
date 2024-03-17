@@ -21,9 +21,9 @@ function load(){
     console.log("loading");
     var fi = document.querySelector('.fadein');
     var fi2 = document.querySelector('.logob');
-    fi2.style.filter = "brightness(100%)";
-    fi2.style.left = "50.5%";
-    fi.style.filter = "brightness(100%)";
+    fi2.style.opacity = 100;
+    fi2.style.left = "49.8%";
+    fi.style.opacity = 100;
     var lc = document.querySelector('.lc');
     //lc.style.bottom = "40%";
     lc.style.opacity = "100%";

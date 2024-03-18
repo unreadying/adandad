@@ -190,6 +190,7 @@ a{
 
 body {
 	background-color:hsl(0, 0%, 100%);
+    mix-blend-mode: difference;
 }
 
 html{
@@ -547,6 +548,7 @@ td {
     bottom:85%;
     transition: bottom 1s ease-out, opacity 1s ease-out .5s,  transform .2s ease-in;
     opacity: 0;
+    z-index: 2;
 }
 
 .c{
@@ -566,6 +568,7 @@ td {
     text-align: left;
     opacity:0;
     transition:opacity .3s ease-in .2s;
+    z-index: -10;
 }
 
 .mission{
@@ -580,6 +583,7 @@ td {
     text-align: left;
     opacity:0;
     transition:opacity .3s ease-in .2s;
+    z-index: -11;
 }
 
 .ourwork{
@@ -590,6 +594,7 @@ td {
     text-align: center;
     opacity:0;
     transition:opacity .3s ease-in .2s;
+    z-index: -5;
 }
 
 .stroke{
@@ -963,8 +968,13 @@ td {
         padding-bottom:20%;
     }
     .pim{
-        max-width: 80%;
+        max-height: 40vmin;
         padding-bottom:20%;
+        max-width:fit-content;
+        display:inline-block;
+        position:inherit; 
+        margin-bottom:5vmin;
+        font-size: 14vmin;
     }
 }
 
@@ -1160,7 +1170,7 @@ td {
 
     .logo{
         top:16%;
-        max-width:100vmin;
+        max-width:65vmin;
         transition: opacity .5s ease-in 0s, left 10s ease-out;
     }
 
@@ -1174,9 +1184,8 @@ td {
         max-width:fit-content;
         display:inline-block;
         position:inherit; 
-        margin:6vmax;
+        margin-bottom:5vmin;
         font-size: 14vmin;
-
     }
 
     .c{
@@ -1205,6 +1214,58 @@ td {
         padding-top:0%;
         padding-bottom:0%;
         float:none;
+    }
+
+    .mbtnh{
+        max-width:fit-content;
+        display:inline-block;
+        position:inherit; 
+        margin-bottom:5vmin;
+        font-size: 14vmin;
+    }
+
+    .nlc{
+        position:absolute;
+        top:3%;
+        left:4%;
+        margin:0;
+        mix-blend-mode: difference;
+    }
+
+    .nrc{
+        position:absolute;
+        left:50%;
+        top:3%;
+        margin:0;
+        mix-blend-mode: difference;
+    }
+
+    .nc{
+        position:absolute;
+        left:24%;
+        top:23%;
+        margin:0;
+        mix-blend-mode: difference;
+    }
+
+    .ourwork{
+        max-width:fit-content;
+        display:inline-block;
+        position:sticky; 
+        margin-top:-120vmin;
+        font-size: 14vmin;
+    }
+
+    .mbhide{
+        opacity:0 !important;
+    }
+
+    .worktitle{
+        display: none;
+    }
+
+    .nmt{
+        margin-top:-120vmin;
     }
 }
 

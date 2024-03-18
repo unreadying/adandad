@@ -37,6 +37,7 @@ function np(event){
     document.querySelector('.nc').style.opacity = 100;
     document.querySelector('.nlc').style.opacity = 100;
     document.querySelector('.nrc').style.opacity = 100;
+    
     };
     if(event.target.innerHTML=="about"){
         cp="a"
@@ -47,6 +48,7 @@ function np(event){
         document.querySelector('.nrc').style.opacity = 3;
         document.querySelector('.nc').style.opacity = 3;
         document.querySelector('.nlc').classList.remove('mbtn');
+        document.querySelector('.nc').classList.remove('mbhide');
         document.querySelector('.nlc').classList.add('mbtnh');
     }
     if(event.target.innerHTML=="ourwork"){
@@ -60,6 +62,7 @@ function np(event){
         document.querySelector('.nlc').style.opacity = 3;
         document.querySelector('.nc').classList.remove('mbtn');
         document.querySelector('.nc').classList.add('mbtnh');
+        document.querySelector('.nc').classList.add('mbhide');
     }
     if(event.target.innerHTML=="contact"){
         cp="c"
@@ -70,6 +73,7 @@ function np(event){
         document.querySelector('.nlc').style.opacity = 3;
         document.querySelector('.nc').style.opacity = 3;
         document.querySelector('.nrc').classList.remove('mbtn');
+        document.querySelector('.nc').classList.remove('mbhide');
         document.querySelector('.nrc').classList.add('mbtnh');
     }
 

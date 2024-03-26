@@ -469,6 +469,14 @@ td {
     float:none;
 }
 
+.lpim{
+    margin-top: 4vh;
+    max-height:80vh;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
 .pimt{
     max-height: 25vh;
     margin-right:5vmin;
@@ -565,7 +573,7 @@ td {
     position: absolute;
     top:55%;
     left:15%;
-    text-align: left;
+    text-align: center;
     opacity:0;
     transition:opacity .3s ease-in .2s;
     z-index: -10;
@@ -975,6 +983,10 @@ td {
         position:inherit; 
         margin-bottom:5vmin;
         font-size: 14vmin;
+    }
+
+    .lpim{
+        max-width: 70vw;
     }
 }
 

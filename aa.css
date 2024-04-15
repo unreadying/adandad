@@ -171,6 +171,7 @@ mix-blend-mode: difference;
     max-width:90vw;
     margin-top:100pt;
     margin-left:5vw;
+    margin-right: 5vw;
 }
 
 .staff{
@@ -227,6 +228,10 @@ mix-blend-mode: difference;
 .r{
     display:inline-block;
     position:inherit;
+}
+
+.staff{
+    max-width:70vw;
 }
 
 }

@@ -210,7 +210,7 @@ mix-blend-mode: difference;
 }
 
 .logo{
-    top:10%;
+    margin-top:-10%;
     max-width:65vmin;
 }
 

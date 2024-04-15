@@ -1,0 +1,232 @@
+html{
+    background-color: black;
+}
+
+body{
+    text-align: center;
+    font-size:30pt;
+    color:white;
+    overflow-x: hidden;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:gray;
+    cursor:grab
+}
+
+textarea{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+
+input{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+
+.icon{
+    max-height: 30vh;
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-top:10vh;
+}
+
+.icon:hover{
+    opacity: .5;
+}
+
+
+.icons{
+    position:absolute;
+}
+
+.iconinfo:hover, .iconinfol:hover{
+   opacity:1;
+}
+
+.iconsinfo{
+    font-size: 1vw;
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.indexbtn{
+    -webkit-transform: scale(1.5,1);
+    -moz-transform: scale(1.5,1);
+    -ms-transform: scale(1.5,1);
+    -o-transform: scale(1.5,1);
+    transform: scale(1.5,1);
+    margin-bottom:10vh;
+}
+
+.c{
+    position:absolute;
+    right:50%;
+    bottom:30%;
+}
+
+.l{
+    position:absolute;
+    right:70%;
+    bottom:30%;
+}
+
+.r{
+    position:absolute;
+    left:70%;
+    bottom:30%;
+}
+
+.menubutton{
+    position:fixed;
+    top:-30pt;
+    left:1vw;
+    mix-blend-mode: difference;
+}
+
+.menubutton:hover{
+    opacity:.5;
+    cursor:grab;
+}
+
+.menu{
+z-index: 2;
+position:fixed;
+text-align: left;
+font-size: 15pt;
+left:1vw;
+mix-blend-mode: difference;
+}
+
+.contact{
+    opacity: 0;
+    visibility:hidden;
+    position:relative;
+    top:-18pt;
+    transition: top .5s ease-out 0s, opacity .3s ease-in 0s, visibility .5s ease-out 0s;
+}
+
+.sideimgs{
+    float:right;
+    margin-left:5vw;
+}
+
+.sideimg{
+    max-width:200pt;
+}
+
+.portimg{
+    max-height: 80vh;
+}
+
+.right{
+    text-align: right;
+}
+
+.nomargin{
+    margin:0;
+}
+
+.ourwork{
+    opacity: 0;
+    visibility:hidden;
+    position:relative;
+    top:-32pt;
+    transition: top .5s ease-out 0s,  opacity .2s ease-in 0s,  visibility .5s ease-out 0s ;
+} 
+
+.about{
+    opacity: 0;
+    visibility:hidden;
+    position:relative;
+    top:-32pt;
+    transition: top .5s ease-out 0s,  opacity .2s ease-in 0s,  visibility .5s ease-out 0s ;
+} 
+
+.header{
+
+    font-size:15pt;
+    
+}
+
+.contactform{
+    width:30vw;
+    height:30vh;
+}
+
+.bodytext{
+    font-size: 15pt;
+    line-height: 25pt;
+}
+
+.contents{
+    text-align: left;
+    max-width:90vw;
+    margin-top:100pt;
+    margin-left:5vw;
+}
+
+.staff{
+    max-height: 200pt;
+}
+
+
+.logo{
+    max-height:30vh;
+}
+
+.logo2{
+    max-height: 30pt;
+}
+
+.center{
+    text-align: center;
+}
+
+@media screen and (max-aspect-ratio:1/1){
+
+.mobh{
+    display:none;
+}
+
+.portimg{
+    max-width: 80vw;
+}
+
+.menubutton{
+    left:3vw;
+}
+
+.menu{
+    left:3vw;
+    font-size: 20pt;
+}
+
+.logo{
+    top:18%;
+    max-width:65vmin;
+}
+
+.c{
+    display:inline-block;
+    position:inherit;
+}
+
+.l{
+    display:inline-block;
+    position:inherit;
+}
+
+.r{
+    display:inline-block;
+    position:inherit;
+}
+
+}

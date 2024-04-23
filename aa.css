@@ -33,8 +33,8 @@ input{
 
 .icon{
     max-height: 40vh;
-    margin-left:10vw;
-    margin-right:10vw;
+    margin-left:7vw;
+    margin-right:7vw;
     margin-top:10vh;
 }
 
@@ -68,7 +68,7 @@ input{
 
 .c{
     position:absolute;
-    right:50%;
+    right:48%;
     bottom:30%;
 }
 

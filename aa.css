@@ -32,7 +32,7 @@ input{
 }
 
 .icon{
-    max-height: 30vh;
+    max-height: 40vh;
     margin-left:10vw;
     margin-right:10vw;
     margin-top:10vh;
@@ -124,6 +124,16 @@ mix-blend-mode: difference;
 
 .portimg{
     max-height: 80vh;
+    max-width: 80vw;
+}
+
+.whiteborder{
+    border:1px solid white;
+}
+
+.titleimg{
+    max-height: 30vh;
+    text-align: center;
 }
 
 .right{

@@ -11,6 +11,7 @@ body{
 
 a{
     color:white;
+    opacity: .8;
     text-decoration: none;
 }
 
@@ -64,12 +65,22 @@ input{
     -o-transform: scale(1.5,1);
     transform: scale(1.5,1);
     margin-bottom:10vh;
+    opacity: 1;
 }
 
 .c{
     position:absolute;
     right:48%;
     bottom:30%;
+    transition:transform 10s ease-out 0s, -webkit-transform 10s ease-out 0s, -moz-transform 10s ease-out 0s, -ms-transform 10s ease-out 0s, -o-transform 10s ease-out 0s;
+}
+
+.c:hover, .l:hover, .r:hover{
+    -webkit-transform: scale(1.5,5);
+    -moz-transform: scale(1.5,5);
+    -ms-transform: scale(1.5,5);
+    -o-transform: scale(1.5,5);
+    transform: scale(1.5,5);
 }
 
 
@@ -77,12 +88,14 @@ input{
     position:absolute;
     right:70%;
     bottom:30%;
+    transition:transform 10s ease-out 0s, -webkit-transform 10s ease-out 0s, -moz-transform 10s ease-out 0s, -ms-transform 10s ease-out 0s, -o-transform 10s ease-out 0s;
 }
 
 .r{
     position:absolute;
     left:70%;
     bottom:30%;
+    transition:transform 10s ease-out 0s, -webkit-transform 10s ease-out 0s, -moz-transform 10s ease-out 0s, -ms-transform 10s ease-out 0s, -o-transform 10s ease-out 0s;
 }
 
 .menubutton{
@@ -167,8 +180,8 @@ mix-blend-mode: difference;
     
 }
 
-.contactform{
-    width:30vw;
+#contactform{
+    width:200pt;
     height:30vh;
 }
 

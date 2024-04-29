@@ -33,10 +33,20 @@ input{
 }
 
 .icon{
-    max-height: 40vh;
-    margin-left:7vw;
-    margin-right:7vw;
-    margin-top:10vh;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+.icont{
+    width: 20vw;
+    padding-right:5vw;
+    padding-left: 5vw;
+}
+
+.worktable{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icon:hover{
@@ -215,10 +225,25 @@ mix-blend-mode: difference;
     text-align: center;
 }
 
+
+
+.mobs{
+    display: none;
+}
+
 @media screen and (max-aspect-ratio:1/1){
 
 .mobh{
-    display:none;
+    display: none;
+}
+
+.mobs{
+    display: block;
+}
+
+.icon{
+    max-width: 75vw;
+    min-width: 75vw;
 }
 
 .portimg{

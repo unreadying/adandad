@@ -5,6 +5,24 @@ var about = document.querySelector('.about');
 
 document.querySelector('.menubutton').onclick=menu;
 
+document.querySelector('.wc').onmouseover=iconh;
+document.querySelector('.ms').onmouseover=iconh;
+document.querySelector('.yn').onmouseover=iconh;
+
+document.querySelector('.wc').onmouseleave=icon;
+document.querySelector('.ms').onmouseleave=icon;
+document.querySelector('.yn').onmouseleave=icon;
+
+function iconh(evt){
+    ci=evt.target.name;
+    document.querySelector('.'+ci+'').src='icons/'+ci+'h.png'
+}
+
+function icon(evt){
+    ci=evt.target.name;
+    document.querySelector('.'+ci+'').src='icons/'+ci+'.png'
+}
+
 function menu(){
 
     if(menuopen==false){

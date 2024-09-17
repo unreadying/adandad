@@ -2,6 +2,7 @@ var menuopen = false;
 
 var contact = document.querySelector('.contact');
 var about = document.querySelector('.about');
+var content = document.querySelector('.content');
 
 document.querySelector('.menubutton').onclick=menu;
 
@@ -27,6 +28,10 @@ function menu(){
 
     if(menuopen==false){
         console.log("menu");
+        content.style.opacity="0.3"
+        content.style.transition="opacity 0.2s ease-in-out 0s";
+        contact.style.transition="opacity 0.2s ease-in-out 0s";
+        about.style.transition="opacity 0.2s ease-in-out 0s";
         contact.style.visibility="visible" 
         about.style.visibility="visible" 
         contact.style.top="28pt" 
@@ -36,12 +41,11 @@ function menu(){
         
         menuopen=true;
     }else if(menuopen==true){
+        content.style.opacity="1"
         contact.style.visibility="hidden" 
         about.style.visibility="hidden" 
         contact.style.opacity="0" 
         about.style.opacity="0" 
-        contact.style.top="-50pt" 
-        about.style.top="-24pt" 
         menuopen=false; 
     }
 }

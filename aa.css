@@ -199,6 +199,21 @@ mix-blend-mode: difference;
     line-height: 25pt;
 }
 
+.footer{
+    font-size: 15pt;
+    line-height: 25pt;
+    position:absolute;
+    bottom:0;
+    left:0;
+    max-width: 70vw;
+    margin-left:10vw;
+}
+
+summary{
+    font-size: 15pt;
+    line-height: 25pt;
+}
+
 .contents{
     text-align: left;
     max-width:90vw;

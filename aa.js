@@ -4,14 +4,18 @@ var contact = document.querySelector('.contact');
 var ourwork = document.querySelector('.ourwork');
 var content = document.querySelector('.content');
 
-var funboard = document.getElementById("funboard");
-var ctx = funboard.getContext("2d");
+
+
+
+
 
 
 flicker(document.querySelector(".logo"));
 flicker(document.querySelector(".l"));
 flicker(document.querySelector(".c"));
 flicker(document.querySelector(".r"));
+
+
 
 
 

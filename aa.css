@@ -186,7 +186,7 @@ mix-blend-mode: difference;
 } 
 
 .header{
-    font-size:15pt;
+    font-size:13pt;
 }
 
 #contactform{
@@ -202,11 +202,12 @@ mix-blend-mode: difference;
 .footer{
     font-size: 13pt;
     line-height: 25pt;
-    position:absolute;
-    bottom:0;
+    position:relative;
+	margin-top:10vh;
     left:0;
     max-width: 70vw;
     margin-left:10vw;
+	
 }
 
 summary{

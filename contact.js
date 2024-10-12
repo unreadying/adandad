@@ -31,7 +31,7 @@ function suc(){
     }
 }
 
-function draw(){
+function draw(event){
     var x = mousepos(funboard,event).x;
     var y = mousepos(funboard,event).y;
     ctx.beginPath();

@@ -3,6 +3,7 @@ html{
 }
 
 body{
+	font-family:"Times New Roman", Times, serif;
     text-align: center;
     font-size:30pt;
     color:white;
@@ -15,10 +16,11 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+a:hover , h4:hover{
     color:gray;
     cursor:grab
 }
+
 
 textarea{
     background-color: black;
@@ -184,9 +186,7 @@ mix-blend-mode: difference;
 } 
 
 .header{
-
     font-size:15pt;
-    
 }
 
 #contactform{
@@ -195,12 +195,12 @@ mix-blend-mode: difference;
 }
 
 .bodytext{
-    font-size: 15pt;
+    font-size: 13pt;
     line-height: 25pt;
 }
 
 .footer{
-    font-size: 15pt;
+    font-size: 13pt;
     line-height: 25pt;
     position:absolute;
     bottom:0;
@@ -210,7 +210,7 @@ mix-blend-mode: difference;
 }
 
 summary{
-    font-size: 15pt;
+    font-size: 13pt;
     line-height: 25pt;
 }
 
@@ -313,6 +313,10 @@ summary{
     text-align: center;
     float:none;
     margin-bottom: 5vh;
+}
+
+.contents{
+	margin-top:50pt;
 }
 
 }

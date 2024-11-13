@@ -204,10 +204,10 @@ mix-blend-mode: difference;
     line-height: 25pt;
     position:relative;
 	margin-top:10vh;
-    left:0;
-    max-width: 70vw;
-    margin-left:10vw;
-	
+    right:0;
+    
+    text-align:right;
+	opacity:0.3;
 }
 
 summary{

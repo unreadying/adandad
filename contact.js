@@ -14,6 +14,10 @@ var ctx = funboard.getContext("2d");
 funboard.width = window.innerWidth-5;
 funboard.height = window.innerHeight-5;
 
+flicker(document.getElementById('e'));
+flicker(document.getElementById('emma'));
+flicker(document.getElementById('evan'));
+
 var prevx = -10;
 var prevy = -10;
 var prevw = window.innerWidth;
@@ -56,6 +60,24 @@ function mousepos(funboard,event){
         x: event.clientX - rect.left,
         y: event.clientY - rect.top
     };
+}
+
+function flicker(e){
+	if(e==null){return};
+    
+    var d = (rand(2000)+500);
+    var o = (rand(0.8)+0.4);
+    e.style.transition="opacity "+(d/1000)+"s ease-in-out 0s";
+    setTimeout(function(){flicker(e)},d);
+    if(e.style.opacity!=1){
+        e.style.opacity=1;
+    }else{
+        e.style.opacity=""+o+"";
+    }
+}
+
+function rand(n){
+    return ((Math.floor((Math.random()*n)*10))/10);
 }
 
 document.querySelector('.menubutton').onclick=menu;

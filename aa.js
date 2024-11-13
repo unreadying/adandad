@@ -16,9 +16,12 @@ flicker(document.querySelector(".c"));
 flicker(document.querySelector(".r"));
 flicker(document.getElementById("adandad"));
 flicker(document.getElementById("team"));
+flicker(document.getElementById("service"));
+
 
 click(document.getElementById("adandad"));
 click(document.getElementById("team"));
+click(document.getElementById("service"));
 
 
 
@@ -35,8 +38,13 @@ function expand(event){
 		info(id,"adandad","advertising & advertisements , also known as ad&ad , is a small international advertising agency founded in 'toronto ontario' . ad&ad currently operates out of copenhagen denmark and 'victoria british columbia' . <br><br> <img class='staff' src=ee.jpg> <img class='staff mobh' src=ee2.jpg> <br><br> we started our agency with one question : why don't small brands advertise ? with this as our founding question we developed a plan to bring big brand advertising to independent businesses . by hiring only the most skilled and versitile creatives we can keep costs low while providing similar results to larger , more expensive agencies . our team is very interested in bringing this approach to other sustainable and ethical markets , particularly renewable energy . ");
 	}
 	if(id=="team" || id=="teamex"){
-		info(id,"team","* emmanuela pinamang *  <br> <br> <img class='staff' src='pinamang.jpg'> <br> <br> interested in : art direction , trends , public relations , idea generation , social media , etc . <br> click <a><u>here</u></a> to view emmanuela's portfolio <br><br> & evan stover & <br> <br> <img class='staff' src='stover.jpg'> <br> <br> 'hello , my name is evan stover' evan is our west coast employee , if you can imagine the typical west coast canadian that pretty much sums him up . 'i love hiking and getting out into nature ! i feel grateful that i can live on beautiful coast Salish territory . ' one of the founding members of ad&ad , evan developed the visual style of our brand . <br> <br> interested in : copywriting , directing , managing teams , programing , etc . <br> click <a href='https://xerelia.ca'><u>here</u></a> to view evan's portfolio");
+		info(id,"team","* emmanuela pinamang *  <br> <br> <img class='staff' src='pinamang.jpg'> <br> <br> here are a few words from emmanuela : ' welcome to the creative world ' ' the realm of [ true ] human [ connection ] ' one of the founding members of adandad , emmanuela blurs the line between reality and thought <br> <br> interested in : art direction , trends , public relations , idea generation , social media , etc . <br> click <a id='emmap' href='https://emmaboaa.cargo.site'><b>*here*</b></a> to view emmanuela's portfolio <br><br> & evan stover & <br> <br> <img class='staff' src='stover.jpg'> <br> <br> 'hello , my name is evan stover' evan is our west coast employee , if you can imagine the typical west coast canadian that pretty much sums him up . 'i love hiking and getting out into nature ! i feel grateful that i can live on beautiful coast Salish territory . ' one of the founding members of ad&ad , evan developed the visual style of our brand . <br> <br> interested in : copywriting , directing , managing teams , programing , etc . <br> click <a id='evanp' href='https://esadvertising.ca'><b>&here&</b></a> to view evan's portfolio");
+	flicker(document.getElementById("emmap"));
+	flicker(document.getElementById("evanp"));
 	}
+	if(id=="service" || id=="serviceex")
+		info(id,"service","small business character , big business energy . <br><br> there is something genuine about small businesses ; at first it can be offputting , but once customers give it a chance they will swear by it . on the other hand , big businesses tend to feel manufactured ; they are easily approachable , but customers rarely feel a sense of connection with the brand . here at ad&ad we strive to marry these two approaches , bringing the trustworthy energy of big business & the lovable character of small business to each and every brand we work alongside . <br><br> we are always looking for new clients , people who want to cultivate or grow a successful brand . we bring the essential advertising toolkit to anyone who asks , no matter the budget . we provide : SEO , social media , web design and hosting , unique visual style , and good old fasioned advertisements . <br><br> we want to form genuine connections with our clients , our agency stands against the individualism and anxiety of the modern world . if you are interested in working alongside us ... send an <b><a id='email' href='contact.html'>email</a></b> !");
+	flicker(document.getElementById("email"));
 }
 
 function info(eid,id,content){

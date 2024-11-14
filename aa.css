@@ -22,6 +22,7 @@ a:hover , h4:hover{
 }
 
 
+
 textarea{
     background-color: black;
     color:white;
@@ -133,6 +134,7 @@ text-align: left;
 font-size: 15pt;
 left:1vw;
 mix-blend-mode: difference;
+top:-100vh;
 }
 
 .contact{
@@ -251,6 +253,35 @@ summary{
     display: none;
 }
 
+.stacon{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5vh;
+}
+
+#sta{
+		padding:5vh;
+		display:none;
+}
+
+
+#con{
+		position:absolute;
+		top:0;
+		left:20vw;
+		padding:5vh;
+}
+
+#consel{
+	opacity:0.3;
+}
+
+#consel:hover , #stasel:hover{
+	opacity:0.3;
+	cursor:crosshair;
+}
+
 @media screen and (max-aspect-ratio:1/1){
 
 .mobh{
@@ -318,6 +349,10 @@ summary{
 
 .contents{
 	margin-top:50pt;
+}
+
+.icons{
+    position:relative;
 }
 
 }

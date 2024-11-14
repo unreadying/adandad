@@ -77,10 +77,10 @@ function rand(n){
     return ((Math.floor((Math.random()*n)*10))/10);
 }
 
+
 function menu(){
 
     if(menuopen==false){
-		document.querySelector(".menubutton").innerHTML="=";
         console.log("menu");
         content.style.opacity="0.3"
         content.style.transition="opacity 0.2s ease-in-out 0s";
@@ -88,6 +88,7 @@ function menu(){
         ourwork.style.transition="opacity 0.2s ease-in-out 0s";
         contact.style.visibility="visible" 
         ourwork.style.visibility="visible" 
+		document.querySelector('.menu').style.top="5vh"
         contact.style.top="28pt" 
         ourwork.style.top="8pt" 
         contact.style.opacity="100" 
@@ -95,7 +96,7 @@ function menu(){
         
         menuopen=true;
     }else if(menuopen==true){
-		document.querySelector(".menubutton").innerHTML="+";
+		document.querySelector('.menu').style.top="-100vh"
         content.style.opacity="1"
         contact.style.visibility="hidden" 
         ourwork.style.visibility="hidden" 
@@ -104,4 +105,5 @@ function menu(){
         menuopen=false; 
     }
 }
+
 

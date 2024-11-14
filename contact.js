@@ -82,6 +82,7 @@ function rand(n){
 
 document.querySelector('.menubutton').onclick=menu;
 
+
 function menu(){
 
     if(menuopen==false){
@@ -92,6 +93,7 @@ function menu(){
         ourwork.style.transition="opacity 0.2s ease-in-out 0s";
         about.style.visibility="visible" 
         ourwork.style.visibility="visible" 
+		document.querySelector('.menu').style.top="5vh"
         about.style.top="28pt" 
         ourwork.style.top="8pt" 
         about.style.opacity="100" 
@@ -99,6 +101,7 @@ function menu(){
         
         menuopen=true;
     }else if(menuopen==true){
+		document.querySelector('.menu').style.top="-100vh"
         content.style.opacity="1"
         about.style.visibility="hidden" 
         ourwork.style.visibility="hidden" 
@@ -107,3 +110,4 @@ function menu(){
         menuopen=false; 
     }
 }
+

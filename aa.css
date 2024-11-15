@@ -255,22 +255,40 @@ summary{
 
 .stacon{
 	position:absolute;
-	top:0;
+	top:15vh;
 	left:0;
 	padding:5vh;
 }
 
 #sta{
+		position:absolute;
+		top:5vh;
+		left:20vw;
 		padding:5vh;
+		max-width:70vw;
 		display:none;
+		margin:0;
 }
 
 
 #con{
 		position:absolute;
-		top:0;
+		top:5vh;
 		left:20vw;
 		padding:5vh;
+		max-width:70vw;
+}
+
+.simg{
+	max-height:15vh;
+}
+
+.mimg{
+	max-height:30vh;
+}
+
+.limg{
+	max-height:45vh;
 }
 
 #consel{
@@ -281,6 +299,8 @@ summary{
 	opacity:0.3;
 	cursor:crosshair;
 }
+
+
 
 @media screen and (max-aspect-ratio:1/1){
 

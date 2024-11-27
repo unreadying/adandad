@@ -56,6 +56,11 @@ input{
     top:-40vh;
 }
 
+.hometable{
+	margin-left:auto;
+	margin-right:auto;
+}
+
 
 
 
@@ -85,7 +90,7 @@ input{
 
 .c{
     position:absolute;
-    right:48%;
+	left:47%;
     bottom:25%;
     transition:transform 10s ease-out 0s, -webkit-transform 10s ease-out 0s, -moz-transform 10s ease-out 0s, -ms-transform 10s ease-out 0s, -o-transform 10s ease-out 0s;
 }
@@ -254,10 +259,10 @@ summary{
 }
 
 .stacon{
-	position:absolute;
-	top:15vh;
+	position:fixed;
+	top:17vh;
 	left:0;
-	padding:5vh;
+	padding:1vw;
 }
 
 #sta{
@@ -275,7 +280,7 @@ summary{
 		position:absolute;
 		top:5vh;
 		left:20vw;
-		padding:5vh;
+		padding:3vh;
 		max-width:70vw;
 }
 
@@ -302,7 +307,7 @@ summary{
 
 
 
-@media screen and (max-aspect-ratio:1/1){
+@media screen and (max-aspect-ratio:8/6){
 
 .mobh{
     display: none;
@@ -373,6 +378,21 @@ summary{
 
 .icons{
     position:relative;
+}
+
+#con{
+	left:28vw;
+}
+
+.simg{
+	max-height:auto;
+	max-width:100%;
+
+}
+
+.stacon{
+	
+	padding:3vw;
 }
 
 }

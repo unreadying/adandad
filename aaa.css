@@ -1,0 +1,58 @@
+html{
+    background-color: black;
+}
+
+body{
+	font-family:"Times New Roman", Times, serif;
+    text-align: center;
+    font-size:30pt;
+    color:white;
+}
+
+h1{
+font-weight:normal;
+font-size:48px;
+margin:0;	
+}
+
+h2{
+	font-size:28px;
+	margin:0;
+}
+
+img{
+max-width:650px;	
+}
+
+
+
+.content{
+width:700px;
+margin:auto;
+text-align:left;	
+}
+
+p{
+	font-size:16px;
+	line-height:25px;
+}
+
+.logo2{
+	height:1em;
+}
+
+.entry{
+
+padding:10px;
+box-shadow:0px 0px 20px 10px white;	
+}
+
+a{
+color:red;	
+}
+
+.footer{
+text-align:center;	
+}
+
+.

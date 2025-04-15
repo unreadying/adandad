@@ -25,6 +25,15 @@ h3{
 	-moz-transform: scale(1,2);
 }
 
+h1{
+font-size:150%;
+line-height:50px;	
+}
+
+.bannercontainer{
+	position:fixed;
+	bottom:0;
+}
 
 .htext{
 	 font-size:15pt;
@@ -38,7 +47,6 @@ h3{
 
 .bannerv{
 	position:absolute;
-	bottom:0;
 	left:-3vmin;
 }
 
@@ -246,6 +254,19 @@ top:-100vh;
 .bodytext{
     font-size: 13pt;
     line-height: 25pt;
+}
+
+.entry{
+	border:1px solid white;
+	padding:1vmax;
+	margin:1vmax;
+}
+
+.blogtext{
+    font-size: 13pt;
+    line-height: 25pt;
+	width:40vmax;
+	margin:auto;
 }
 
 .footer{

@@ -29,6 +29,7 @@ margin:auto;
 }
 
 h2{
+	font-weight:normal;
 	font-size:28px;
 	margin:0;
 }
@@ -37,7 +38,10 @@ img{
 max-width:650px;	
 }
 
-
+b{
+font-weight:normal;
+letter-spacing:5px;	
+}
 
 
 

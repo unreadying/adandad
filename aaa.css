@@ -53,6 +53,11 @@ margin:auto;
 text-align:left;	
 }
 
+.blockquote{
+padding:3em;
+font-size:16px;	
+}
+
 p{
 	font-size:16px;
 	line-height:25px;

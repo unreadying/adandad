@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "aaa.css">
+        <title>madletter</title>
+        <meta name="keywords" content="generate a quality cover letter in seconds">
+        <meta name="description" content="a tool that uses simple word replacement to generate a cover letter with minimal information">
+		<meta name="og:title" property="og:title" content="freelance programmer-copywriter in vancouver">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico">
+		<meta charset="UTF-8">
+    </head>
+	
+
+	
+	<body>
+	 <canvas id="funboard" style="position:fixed;left:0;top:0;z-index:-1;"></canvas>
+	<div class="topbar">
+
+    <a href="index.html"><img class="logo2" alt = "ad  &  ad logo" src="logo2fill.png" style='opacity:0.0'></a>
+		<br><br>
+		<div class='title'>
+		 	<h1>madletter</h1>
+
+		<p class='mobh'>cover letters mad(e) easy</p>
+		 </div>
+    </div>
+
+	
+
+	<div class="content">
+		<br>   
+		<br>
+		
+	<div class='entry'>
+	<p id='output'>
+	</p>
+	</div>
+		
+
+	<div class='entry'>
+	<input type='text' placeholder='your full name' id='name'><input type='text' placeholder='position you are applying for' id='pos'><input type='text' placeholder='who you are writing to' id='to'><input type='text' placeholder='company you are writing to' id='company'><input type='text' placeholder='why are you qualified' id='why'>
+	<input type='text' placeholder='list of specific skills' id='skills'><input type='text' placeholder='relationship to the company' id='companyrel'><input type='text' placeholder='your availibility' id='avail'><input type='text' placeholder='portfolio link' id='portfolio'>
+	<input type='text' placeholder='your phone number' id='phone'>
+	<label for="tone">tone :</label>
+<select id="tone" name="tone">
+  <option value="random">random</option>
+  <option value="casual">casual</option>
+  <option value="friendly">friendly</option>
+  <option value="neutral">neutral</option>
+  <option value="creative">creative</option>
+  <option value="formal">formal</option>
+</select>
+<label for="audience">audience :</label>
+<select id="audience" name="audience">
+  <option value="random">random</option>
+  <option value="creative">creative</option>
+  <option value="general">general</option>
+  <option value="local">local</option>
+  <option value="academic">academic</option>
+  <option value="corporate">corporate</option>
+</select>
+
+	<button type='button' id='generate' onclick='generatecl()'>generate</button>
+	</div>
+	
+
+	<br>
+	<div class='footer'>
+	<p><a href='mailto:evan@adandad.ca'>contact<a>&nbsp&nbsp<a href='https://esadvertising.ca'>my portfolio</a>
+	</div>
+	
+	<script src='blog.js'></script>
+	</body>
+	
